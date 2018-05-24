@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*, html, body{ padding: 0; margin: 0;list-style: none; text-decoration: none;box-sizing: border-box;outline: inherit;}
+body{width: 100%; height: auto;background: url(../image/bg-body.png) repeat;}
+.mihstore{width: 1010px;margin: auto;}
+.container-1{ height: 50px;margin: auto;display: flex; justify-content: space-around; align-items: center;background: #ffffff;}
+.container-1 p{font-family: Calibri ;font-size: 14px;color: #b1b1b1;}
+.container-1 nav ul li{display: inline-block;padding: 0 15px;}
+.container-1 nav ul li a{font-family: Calibri ;font-size: 14px;color: #b1b1b1;text-transform: uppercase;}
+.container-1 nav ul li:hover a{color: #6dbdd2;}
+
+.container-2{ height: 200px;margin: auto;display: flex; justify-content: space-between; align-items: center;padding: 0 35px;}
+.social{width: 300px; height:50px; }
+.social ul{width: 100%;  display: flex; justify-content: space-around;}
+.social ul li a{width: 50px; height: 49px; background: url(../image/social-icons.png) no-repeat ; display: block;opacity: 0.3; }
+#rss{background-position:0px 0 ;}
+#tw{background-position:-60px 0 ;}
+#fb{background-position:-125px 0 ;}
+#su{background-position:-190px 0 ;}
+#ms{background-position:-255px 0 ;}
+.social ul li a:hover {opacity:1;}
+
+.container-3{width: 1010px; height: 50px;margin: auto;display: flex; justify-content: space-between; align-items: center;background: #ffffff;overflow: hidden;padding: 0 10px 0 0 ;border-bottom: 5px solid #fff;}
+.container-3 nav ul li{display: inline-block;padding: 18px 0;width: 150px;height: 54px; position: relative;}
+.container-3 nav ul li a{font-family: Calibri ;font-size: 18px;color: #000;text-transform: uppercase;align-items: center;font-weight: bold;width: 150px;position: absolute;text-align: center;}
+.container-3 nav ul li:hover a{color: #f02b63; }
+.container-3 nav ul li:hover:before {content: '';width: 150px;height: 61px; background: url(../image/menu-bottom.png) no-repeat ;background-position: 50% 50%;z-index: 10;position: absolute;}
+
+.container-3:hover{border-bottom: 5px solid #f02b63;}
+.korz p1, p2, p3, h3, h4, h5, h6{font-family: Calibri ;font-size: 17px;text-transform: uppercase;}
+.korz p1{color: #b1b1b1;}
+.korz p2{color: #6dbdd2;}
+.korz p3, h3, h4, h5, h6{color: #9cc265;}
+.korz input#sub{width: 22px; height: 20px;background: url(../image/dropdown-button.png) no-repeat;border: none;cursor: pointer;}
+
+.container-4{display: flex; justify-content: space-between;padding: 20px 0;}
+h2{font-family: Calibri ;font-size: 18px;color: #6dbdd2;text-transform: uppercase;float: left;border-right: 2px solid #6dbdd2;padding: 0 38px 0 34px;}
+.container-4 p4{font-family: Calibri ;font-size: 18px;color: #b1b1b1;text-transform: uppercase;}
+
+.container-5{height: 1000px; background: #fff;display: flex;justify-content: space-around;}
+.content{width: 710px; height: 100%;padding: 30px;border-right: 1px dashed #e3ebed;}
+.content:before{content: '';position: absolute;right: 469px;top: 362px;border-bottom: 12px solid #fff;border-right: 12px solid #e3ebed;}
+.content img{margin-bottom: 50px;}
+
+.prod{width: 196px; height: 155px;background: #fcfcfc;margin: 10px;float: left;position: relative;border: 1px solid #f8f8f8; box-shadow: 1px 1px #e2e2e2;}
+.prod img{left: 0px;top: 0px;right: 0px; bottom: 0px;  margin: auto;position: absolute;}
+.prise{width: 100%; height: 25px; background: #e8e8e8;margin-top: 128px;display: flex; justify-content: space-between;align-items: center;padding: 7px;float: left;}
+.prise p5{font-family: Calibri ;font-size: 14px;color: #b1b1b1;}
+.prise p6{font-family: Calibri ;font-size: 14px;color: #f02b63;}
+.stock1{width: 54px;height: 54px; background: url(../image/stock1.png) no-repeat;position: absolute;top: 60px;left: 20px;}
+.stock2{width: 54px;height: 54px; background: url(../image/stock2.png) no-repeat;position: absolute;top: 55px;left: 45px;}
+.stock3{width: 54px;height: 54px; background: url(../image/stock3.png) no-repeat;position: absolute;top: 15px;left: 95px;}
+.paginator{width: 200px;height: 25px;display: flex; justify-content: space-around;margin: auto;}
+.paginator a{font-family: Calibri ;font-size: 18px;color: #b1b1b1;text-transform: uppercase;width: 25px; height: 25px;text-align: center;}
+.paginator a:hover{display: block;border-radius: 50% 50%; background: green;color: #fff;}
+.sidebar{width: 300px;height: 1000px;padding: 20px;}
+.sidebar:before{content: '';position: absolute;right: 457px;top: 362px;border-bottom: 12px solid #fff;border-left: 12px solid #e3ebed;}
+.sort-by{margin: 20px 0 40px 0;}
+.sort{width: 250px; height: 35px; background: #f9f9f9; box-shadow: 1px 2px #dcdcdc;margin: 10px 0;padding: 5px 20px; display: flex;justify-content: space-between;border-radius: 4px;}
+.sort label{font-family: Calibri ;font-size: 18px;color: #b1b1b1;}
+.sort span{font-family: Calibri ;font-size: 18px;color: #f02b63;}
+.sl{width: 30px; height: 25px; background: #f9f9f9; border: none;color: #b1b1b1;cursor: pointer;}
+.b-sellers{margin: 20px 0 40px 0;}
+.sellers{width: 250px;height: 75px;background: #f9f9f9; border-radius: 4px;padding: 7px;display: flex; justify-content: space-between;margin: 7px 0;}
+.sellers p7{font-family: Calibri ;font-size: 18px;color: #4cb1ca;}
+.sellers p8{font-family: Calibri ;font-size: 12px;color: #b1b1b1;}
+.sellers span{font-family: Calibri ;font-size: 12px;color: #f02b63;}
+.payment-i li{float: left; }
+.payment-i ul li a{width: 85px; height: 55px; background: url(../image/payment-icons.png) no-repeat ; display: block;opacity: 0.3; }
+#pp{background-position:0px 0 ;}
+#vs{background-position:-84px 0 ;}
+#wc{background-position:-167px 0 ;}
+#mc{background-position:0px -58px;}
+#mso{background-position:-84px  -58px ;}
+#do{background-position:-167px -58px ;}
+#pp2{background-position:0px 0 ;}
+#vs2{background-position:-84px 0 ;}
+#wc2{background-position:-167px 0 ;}
+.payment-i ul li a:hover {opacity:1;}
+.sidebar:after{    content: '';position: absolute;right: 169px;top: 1322px;border-left: 40px solid #4cb1ca;border-bottom: 40px solid rgb(227, 235, 237);}
+.container-6{height: 80px; display: flex; justify-content: space-between;align-items: center;}
+.container-6 p9, .container-6 a{font-family: Calibri ;font-size: 14px;color: #466972;}
